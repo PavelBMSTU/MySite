@@ -1,0 +1,183 @@
+html {
+	max-width: 100%;
+	overflow-x: hidden;
+	width: 100%;
+}
+body {
+  	background-color: #f0f0f0; /* Цвет фона веб-страницы */
+  	color: black; /* Цвет основного текста */ 
+  	text-align: center;
+  	overflow-x: hidden;
+  	max-width: 100%;
+  	width: 100%;
+}
+h1 {
+	position: relative;
+	margin-top: 1px;
+  	color: black; /* Цвет заголовка */
+  	font-size: 80pt; /* Размер шрифта в пунктах */
+  	font-family: Georgia, Times, serif; /* Семейство шрифтов */
+  	width: 100%; /* Нормальное начертание текста  */
+}
+h2 {
+	position: relative;
+	margin-bottom: 1px;
+  	color: black; /* Цвет заголовка */
+  	font-size: 35pt; /* Размер шрифта в пунктах */
+  	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; /* Семейство шрифтов */
+  	width: 100%; /* Нормальное начертание текста  */
+}
+h3 {
+  	color: black; /* Цвет заголовка */
+  	font-size: 25pt; /* Размер шрифта в пунктах */
+  	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; /* Семейство шрифтов */
+  	width: 100%; /* Нормальное начертание текста  */
+}
+h4 {
+	font-size: 15pt;
+  	color: black; /* Цвет заголовка */
+  	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; /* Семейство шрифтов */
+  	width: 100%; /* Нормальное начертание текста  */
+}
+h5 {
+  	color: black; /* Цвет заголовка */
+  	font-size: 55pt; /* Размер шрифта в пунктах */
+  	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; /* Семейство шрифтов */
+  	width: 100%; /* Нормальное начертание текста  */
+}
+h6 {
+	position: relative;
+	margin-bottom: 5px;
+	text-align: center;
+	color: black;
+	font-size: 30;
+	width: 100%;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; /* Семейство шрифтов */
+}
+p {
+	margin-bottom: 45px;
+	font-size: 15pt;
+  	text-align: center;
+  	margin-right: 30%;
+  	margin-left: 30%;
+}
+.prepage1 {
+	background-color: #C0C0C0;
+	height: 450px;
+	width: 42%;
+	float: left; /* Обтекание по правому краю */
+	border: 1px solid #C0C0C0; /* Параметры рамки */
+    margin-left: 40px;
+    padding: 10px; /* Поля вокруг текста */
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.prepage2 {
+	background-color: #C0C0C0;
+	height: 450px;
+	width: 42%;
+	float: right; /* Обтекание по правому краю */
+	border: 1px solid #C0C0C0; /* Параметры рамки */
+	padding: 10px; /* Поля вокруг текста */
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+#text {
+	position: relative;
+	text-align: center;
+	color: black;
+	font-size: 30;
+	width: 100%;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; /* Семейство шрифтов */
+	margin-bottom: 5px;
+}
+#image {
+	position: relative;
+	text-align: center;
+}
+#link {
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 15px;
+	border: 1px solid #f0f0f0;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; /* Семейство шрифтов */
+	padding: 10px; /* Поля вокруг текста */
+}
+#toggle {
+	border: 1px solid #C0C0C0;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; /* Семейство шрифтов */
+	padding: 10px; /* Поля вокруг текста */
+	margin-left: 45%;
+	margin-right: 45%;
+	display: block;
+}
+#elem {
+	display: none;
+	position: absolute;
+}
+#pencil {
+	position: relative;
+	margin-top: 1%;
+	margin-left: 1400px; 
+}
+#cost {
+	display: none;
+	position: absolute;
+}
+ #menu { 
+ 	width: 50px;
+ 	height: 50px;
+ 	position: fixed;
+ 	text-align: center;
+	border: 2px solid black;
+	border-radius: 4px;
+	opacity: 0.6;
+	left: 1%;
+	top: 1%;
+ }
+ #button { 
+ 	width: 50px;
+ 	height: 50px;
+ 	position: fixed;
+	opacity: 0.6;
+	left: 1%;
+	top: 1%;
+	z-index: 2;
+ }
+ #button2 { 
+ 	visibility: hidden;
+ 	width: 50px;
+ 	height: 50px;
+ 	position: fixed;
+	opacity: 0.6;
+	left: 1%;
+	top: 22%;
+	z-index: 2;
+ }
+  #button3 { 
+ 	visibility: hidden;
+ 	width: 50px;
+ 	height: 50px;
+ 	position: fixed;
+	opacity: 0.6;
+	left: 7%;
+	top: 22%;
+	z-index: 2;
+ }
+  #button4 { 
+ 	visibility: hidden;
+ 	width: 50px;
+ 	height: 50px;
+ 	position: fixed;
+	opacity: 0.6;
+	left: 13%;
+	top: 22%;
+	z-index: 2;
+ }
+#weather {
+	visibility: hidden;
+	position: fixed;
+	top: 30%;
+	z-index: 2;
+	opacity: 1.0;
+}
